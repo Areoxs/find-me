@@ -1,0 +1,260 @@
+*::-webkit-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "ProximaNovaRegular", sans-serif;
+	font-size: 16px;
+    color:#fff;
+}
+
+.top_line{
+    background: url(../images/pexels-photo-116245.png) no-repeat;
+    background-size: cover;
+}
+.main_header__container{
+    margin:45px 0;
+}
+.logo{
+    float:left;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 30px ProximaNovaBold;
+}
+.logo:hover,.logo:focus{
+    color:#fff;
+    text-decoration: none;
+}
+.logo span{
+    font: 400 30px ProximaNovalight;
+}
+.main_nav{
+    display:none;
+}
+.nav_btn{
+    float:right;
+    border:none;
+    background-color:transparent;
+}
+.content__large{
+    margin:260px 0 180px;
+    text-align: center;
+}
+.content h1{
+    padding: 0;
+    margin: 0;
+    font: 90px ProximaNovaBold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #000;
+}
+.content p{
+    padding: 0;
+    margin: 0;
+    font: 300 15px ProximaNovaRegular;
+    text-shadow: 1px 1px 3px #000;
+}
+.content.invert_color h1,.content.invert_color p{
+    text-shadow:none;
+}
+.content__large p,.content__touch p{
+     margin:35px 250px;
+}
+.content a{
+    display:inline-block;
+    margin:0 auto;
+    padding:18px 70px;
+    color:#fff;
+    text-decoration:none;
+    font: 300 20px ProximaNovalight;
+    background-color:transparent;
+    border:1px solid #fff;
+    border-radius:3px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+.content a:hover,.content a:focus{
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    box-shadow: inset 0 0 1px 1px #fff;
+}
+.content a:active{
+   box-shadow: inset 0 0 12px 12px #fff; 
+}
+.second_line{
+    background: url(../images/pexels-photo-67386_large.png) no-repeat;
+    background-size: cover;
+}
+.content__medium_wrap{
+    margin:162px 0;
+}
+.content__medium p{
+   margin:35px 0;
+}
+.gallery{
+    margin-top:130px;
+}
+.gallery img:not(:first-child){
+    margin-left:7px;
+}
+.second_line__img_wrap img,.forth_line__img_wrap img{
+    max-width:100%;
+}
+.third_line{
+    background: url(../images/biker-384178_1920.png) no-repeat;
+    background-size: cover;
+}
+.content__small_wrap{
+    margin:235px 0;
+}
+.content__small_wrap .content__medium{
+    text-align: right;
+}
+.invert_color{
+    color:#000;
+}
+.invert_color a{
+    color:#000;
+    border-color:#000;
+}
+.content  a.invert_color:hover,.content a.invert_color:focus{
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    box-shadow: inset 0 0 1px 1px #000;
+}
+.content a.invert_color:active{
+   box-shadow: inset 0 0 12px 12px #000; 
+}
+.forth_line__img_wrap{
+    margin:35px 0 0 60px;
+    padding:20px;
+    background: url(../images/Rectangle-6-copy.png) no-repeat ;
+}
+
+.forth_line .content p{
+    margin-left:85px;
+}
+.radio_wrap{
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+.radio_wrap input{
+    display:none;
+}
+.radio_inp{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.radio_inp:nth-of-type(1){
+    background-color: #000;
+}
+.radio_inp:nth-of-type(2){
+    background-color: #dfe200;
+}
+.radio_inp:nth-of-type(3){
+    background-color: #001762;
+}
+.radio_inp:nth-of-type(4){
+    background-color: #006e82;
+}
+input[type="radio"]:checked+label{
+    box-shadow: 0 0 6px #000;
+}
+.fifth_line{
+    background: url(../images/pexels-photo-30313.png) no-repeat;
+    background-size: cover;
+}
+.content__touch{
+    margin:100px 0;
+    text-align: center;
+}
+.callback_wrap{
+  font-size:0;  
+}
+.callback{
+    margin:0;
+    padding:18px 70px;
+    background-color: transparent;
+    font: 300 20px ProximaNovalight;
+    border:1px solid #fff;
+}
+.callback:focus::-webkit-input-placeholder {color: transparent}
+.callback:focus::-moz-placeholder          {color: transparent}
+.callback:focus:-moz-placeholder           {color: transparent}
+.callback:focus:-ms-input-placeholder      {color: transparent}
+.btn_callback{
+    background-color: #fff;
+    border:none;
+    padding:18px 25px;
+    font-size:20px;
+    color:#dedddd;
+}
+.btn_callback:active{
+    outline:none;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+background: rgb(255,255,255); /* Old browsers */ /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+}
+footer{
+    background-color: #000;
+}
+footer p{
+    color: #a6a6a6;
+    font: 300 14px ProximaNovalight;
+}
+.flex_wrap{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.add_nav{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float:right;
+}
+.add_nav li{
+    display:inline-block;
+}
+.add_nav__itm{
+    padding:10px;
+    color: #a6a6a6;
+    font: 300 13px ProximaNovalight;
+    margin-left:20px;
+}
+.add_nav__itm:hover,.add_nav__itm:focus{
+   color: #a6a6a6;
+}
